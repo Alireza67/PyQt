@@ -1,3 +1,12 @@
+#windows:
+    #1. install python and add to path
+    #2. open cmd and type below commands
+    #3. python -m pip install --upgrade pip
+    #4. pip install pyqt5
+    #5. pip install pyqt5-tools
+    #6. pip install pyinstaller
+
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 
