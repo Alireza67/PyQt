@@ -1,6 +1,9 @@
 
-class dog():
+class Dog():
+    """A simple Model from a dog"""
+
     def __init__(self, age, name):
+        """initialize name and age attributes"""
         self.age = age
         self.name = name
 
