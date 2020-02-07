@@ -15,7 +15,7 @@ class Dog():
     def roll_over(self):
         pass
 
-first_sample = dog(2, "Jack")
+first_sample = Dog(2, "Jack")
 
 print("dog name is: ",first_sample.name)
 print("It's age is: ", first_sample.age)
