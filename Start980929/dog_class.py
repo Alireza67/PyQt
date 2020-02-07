@@ -15,7 +15,13 @@ class Dog():
     def roll_over(self):
         pass
 
-first_sample = Dog(2, "Jack")
 
-print("dog name is: ",first_sample.name)
-print("It's age is: ", first_sample.age)
+    def change_age(self,age):
+        self.age = age
+
+first_sample = Dog(2, "Jack")
+first_sample.change_age(4)
+first_sample.age = 6
+
+print("dog name is: ",first_sample.name.title())
+print(first_sample.name.title()+"'s age is: ", first_sample.age, " years old.")
